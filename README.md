@@ -11,3 +11,7 @@ This dataset consist of marks secured by the students in various tests.The varia
 * __math_score:__ represents the score of the student in the math test
 * __reading_score:__ represents the score of the student in the reading test
 * __writing_score:__ represents the score of the student in the writing test
+
+# Source
+The dataset is taken from Kaggle Datasets
+[ Dataset Link ](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data)
