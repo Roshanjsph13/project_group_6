@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMy Website</title>
+        <style>
+            
+            h1 {
+                font-family: Arial, sans-serif;
+                font-size: 36px;
+                text-align: center; 
+                
+            }
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 250px;
+            text-align: center;
+        } 
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+            
+        
+            
+        </style>
+        
+    </head>
+    <body>
+        <h1>Students</h1>
+    <body>
+        <table>
+            <thead>
+                <tr><th>Gender</th><th>race_ethnicity</th><th>parental_level_of_education</th><th>lunch</th><th>test_preparation_course</th><th>math_score</th><th>reading_score</th><th>writing_score</th></tr>
+            </thead>
+            <tbody>
+                {% for s in students%}
+            <tr><td>{{ s[0] }}</td><td>{{ s[1] }}</td><td>{{ s[2] }}</td><td>{{ s[3] }}</td><td>{{ s[4] }}</td><td>{{ s[5] }}</td><td>{{ s[6] }}</td><td>{{ s[7] }}</td></tr>
+                {% endfor %}    
+            </tbody>
+        </table>
+    </body>
+</html>
+
