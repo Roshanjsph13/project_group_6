@@ -1,16 +1,10 @@
 # project_group_6
+# Overview
+The project is intended to create a website to display the student performance dataset as well as an about page which gives the basic description of the dataset.The dataset is taken from kaggle datasets and is stored in a SQLite database using the sqlite3 package.The website is created using flask module of python.
+# Code Description
+Within the flask folder the subfolder templates contain all the html files which are used to create the index page as well as its links to the about page and data page which are obtained by clicking the links in the index page.The app_template_detail_2.py does all the operations required to take the user to different pages of the wesite and integrates the database to the datapage.The other files are used to create the database which store the dataset that is displayed in the datapage.
 # Student Performance Dataset
 This dataset consist of marks secured by the students in various tests.The variables provide information related to gender, ethnicity, parents education level, lunch type, test preparation course status and the marks scored in math, reading and writing tests.
-
-# Dataset variables
-* __gender:__ represents sex of the students(Male,Female)
-* __race_ethnicity:__ represents ethnicity of the students.Based on ethnicity there are five groups(A,B,C,D,E)
-* __parental_level_of_education:__ represents parents highest educational qualification(bachelors degree, some college, masters degree, associate degree, high school)
-* __lunch:__ represents the lunch type taken before the test by the students(standard or free/reduced)
-* __test_preparation_course:__ represents whether the student have completed the test preparation course before test(none, completed)
-* __math_score:__ represents the score of the student in the math test
-* __reading_score:__ represents the score of the student in the reading test
-* __writing_score:__ represents the score of the student in the writing test
 
 # Source
 The dataset is taken from Kaggle Datasets:
