@@ -13,6 +13,8 @@ The dataset is taken from Kaggle Datasets:
 # Installation
 1. Clone the repository
    [https://github.com/Roshanjsph13/project_group_6.git](https://github.com/Roshanjsph13/project_group_6.git)
-2. To install all the required modules:
+2.Create a venv (virtual environment)
+3. To install all the required modules:
     pip install -r requirements.txt
-3. Run the 'app_template_detail_2.py' to get website link.  
+4. Run the 'app_template_detail_2.py' to get website link.
+   
